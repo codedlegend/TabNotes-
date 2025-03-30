@@ -1,0 +1,20 @@
+body{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#addNote{
+    cursor: pointer;
+    border-radius: 10px;
+    width: calc(100px / 1.5);
+    height: 50px;
+    font-family: monospace;
+    background-color: hsl(208, 100%, 97%);
+    border: none;
+}
+#addNote:hover{
+    background-color: hsl(208, 100%, 77%);
+}
